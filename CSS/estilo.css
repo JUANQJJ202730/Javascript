@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Juan;
+    src: url(font\AnteriSignature_PERSONAL_USE_ONLY.otf);
+}
+
+
+.contenedorIn {
+    margin: 10px 0;
+    ;
+}
+
+#btnLogin {
+    width: 300px;
+    line-height: 25px;
+    padding: 10px 1px 9px 8px;
+    background-image: url(https://th.bing.com/th/id/R.d14d92dba96e7b97f82740a783c4ef75?rik=A4a34G4btZFtGQ&riu=http%3a%2f%2f25.media.tumblr.com%2f8275253c8efc58d4e8a42a741213556b%2ftumblr_meyxb3iV6N1rilp8po1_500.gif&ehk=LwWLeq2xvMhMbJ8SAlTu0Ds1lni%2fi26png58%2bilecAI%3d&risl=&pid=ImgRaw&r=0);
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    margin-left: 0px;
+    font-size: 20px;
+}
+input {
+    padding: 17px 40px 9px 40px;
+    width: 300px;
+    background-image: url(https://3.bp.blogspot.com/-WqbkBseSX5s/V_5yyOJ7I8I/AAAAAAAAndk/YrpDaL76J3QEIGfk8A_XAoNMut620og9QCLcB/s1600/5.gif);
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+#btnLogin:hover{
+    background-color: #1b72e3;
+}
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    justify-content:space-around;
+    padding: 150px 450px 600px;
+    margin: 0 0 50px 0;
+    background-image: url(https://s2.glbimg.com/7byo7Llf_jv-20cyf7UrWMlifMk=/smart/e.glbimg.com/og/ed/f/original/2016/12/15/nasa_1.gif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cajaUsuario {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #ffffff;
+    border: 10px;
+    padding-top: 150px;
+}

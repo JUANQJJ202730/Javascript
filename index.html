@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <!--<div class="container">
+        <h1  class="text-center py-5 jFuente" >Notas rapidas</h1>
+        <div class="row">
+            <div class="col-6 offset-3" >
+                <form id="create-form" >
+                    <input type="text" class="form-control mb-3" placeholder="Titulo nota" id="tituloNotaUsuario">
+                    <input type="text" class="form-control mb-3" placeholder="Pon la url de la imagen" id="imagenUsuario">
+                    <div class="form-floating">
+                        <textarea class="form-control"  id="textoNota"  placeholder="Su nota va aqui"></textarea>
+                        <label for="notaUsuario">Su nota va aqui</label>
+                    </div>
+                    
+                </form>
+                <div class="d-flex justify-content-end mt-4">
+                    <button id="btn-formulario" onclick="guardarNota()" class="btn btn-warning fw-bold">Guardar nota</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-10" >
+            <div class="row row-cols-1 row-cols-md-2 g-4" id="notasGuardadas">
+                
+            </div>
+        
+        
+        </div>
+    </div>-->
+
+    <!--Ejercicios del 1 al 2-->
+        <section class="flexbox1 ">
+        <section class="cajaUsuario ">
+            <div class="cajaFormulario ">
+                <div id="Formu">
+                    <form class="m-2">
+                        <h1 class="text-center" style="font-family: Juan; color: green;">EJERCICIO 1</h1>
+                        <div class="contenedorIn">
+                            <input type="text" id="floatingTextarea1"  placeholder="Ingrese el numero aqui">
+                        </div>
+                        
+                        <div>
+                            <button id="btnLogin" type="button" onclick="ejercicio1()">Ingresar numero</button>
+                        </div>
+                        <div id="lugarEjercicio1">
+
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+            <div>
+                <form class="m-2">
+                    <h1 class="text-center" style="font-family: Juan; color: green;">EJERCICIO 2</h1>
+                    <div class="contenedorIn">
+                        <input type="text" id="floatingTextarea2"  placeholder="Ingrese el numero aqui">
+                    </div>
+                    
+                    <div>
+                        <button id="btnLogin" type="button" onclick="ejercicio2()">Ingresar numero</button>
+                    </div>
+                    <div id="lugarEjercicio2">
+
+                    </div>
+                </form>
+            </div>
+            <form class="m-2">
+                <h1 class="text-center" style="font-family: Juan;color: green; ">EJERCICIO 3</h1>
+                <div class="contenedorIn">
+                    <input type="text" id="floatingTextarea3"  placeholder="INGRESE SU EDAD">
+                </div>
+                <div class="contenedorIn">
+                    <input type="text" id="Textarea"  placeholder="INGRESE GENERO (H o M)">
+                </div>
+                <div>
+                    <button id="btnLogin" type="button" onclick="ejercicio3()">Ingresar numero</button>
+                </div>
+                <div id="lugar2">
+
+                </div>
+                
+            </form>
+            <form>
+                <ul id="lugarr" style="font-size: 30px; color: green; font-family: Juan;">
+                    <li>Hamburguesa: 30000 (H)</li>
+                    <li>Pizza: 28000 (Pi)</li>
+                    <li>Papas fritas: 15000 (PaF)</li>
+                    <li>Refresco: 8000</li>
+                </ul>
+                <P style="font-size: 20px; color: red;">PARA PAGAR ESCRIBIR "P"</P>
+                <div class="contenedorIn">
+                    <input type="text" id="floatingTextarea4"  placeholder="INGRESE SU ORDEN">
+                </div>
+                
+                <div>
+                    <button id="btnLogin" type="button" onclick="ejercicio4()">Ingresar orden</button>
+                </div>
+                <div id="lugarEjercicio4" >
+                    
+                </div>
+                
+            </form>
+            <form>
+                        
+                <h3 style="color: green; font-family: Juan; text-align: center;">EJERCICIO 5</h3>
+                <div class="contenedorIn">
+                    <input type="text" id="floatingTextarea5"  placeholder="INGRESE EL NUMERO">
+                </div>
+                
+                <div>
+                    <button id="btnLogin" type="button" onclick="ejercicio5()">Ingresar numero</button>
+                </div>
+                <ul id="lugar">
+                </ul>
+                <div id="lugarRe"></div>
+            </form>
+            <form>
+                
+                <h3 style="color: green;font-family: Juan; text-align: center;">EJERCICIO 6</h3>
+                <div class="contenedorIn">
+                    <input type="text" id="floatingTextarea6"  placeholder="INGRESE EL PROMEDIO">
+                </div>
+                
+                <div>
+                    <button id="btnLogin" type="button" onclick="ejercicio6()">Ingresar numero</button>
+                </div>
+                <div id="lugarEjercicio6"></div>
+                <div id="lugar62"></div>
+            </form>
+        </section>
+    </section>
+    
+
+    <!-- EJERCICO 6
+        <section class="flexbox1">
+        <section class="cajaUsuario">
+            <div class="cajaFormulario">
+                <div id="Formu">
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+    -->
+    
+
+
+    <script src="node_modules\sweetalert2\dist\sweetalert2.all.min.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
+
+
