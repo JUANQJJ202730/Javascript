@@ -176,7 +176,7 @@ const menu =
 function ejercicio4(){
     let opcion = document.querySelector(`#floatingTextarea4`)
 
-    while (opcion.value !== "P") {
+    while (opcion.value !== "Pagar") {
         
         if (opcion.value in menu) {
             total += menu[opcion.value]
@@ -184,7 +184,7 @@ function ejercicio4(){
             lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Ha agregado ${opcion.value} a su orden. Total: $ ${total}</label>
     `
         }
-        else if (opcion.value !== "P") {
+        else if (opcion.value !== "Pagar") {
             console.log("Lo siento, la opción seleccionada no es válida.")
             lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Lo siento, la opción seleccionada no es válida.</label>
     `
