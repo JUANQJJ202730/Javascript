@@ -129,7 +129,7 @@ function ejercicio3(){
     edad.value = parseInt(edad.value)
     let sexo = document.querySelector(`#Textarea`)
 
-    if (edad.value < 18 && sexo.value === `M`) {
+    if (edad.value < 10 && sexo.value === `M`) {
         console.log(`¡Felicidades! Has ganado un jugo`)
         lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">¡Felicidades! Has ganado un jugo</label>
         <label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Adicionalmente, has ganado una porción de pizza Hawaiana</label>`
@@ -137,7 +137,7 @@ function ejercicio3(){
         console.log(`¡Felicidades! Has ganado una cerveza`)
         lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">¡Felicidades! Has ganado una cerveza</label>
         <label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Adicionalmente, has ganado una porción de pizza Hawaiana</label>`
-    }else if (sexo.value === `H` && edad.value < 18) {
+    }else if (sexo.value === `H` && edad.value < 10) {
         console.log(`Adicionalmente, has ganado una porción de pizza Hawaiana`)
         lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">¡Felicidades! Has ganado un jugo</label>
         <label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Adicionalmente, has ganado una porción de pizza tres carnes</label>
@@ -224,6 +224,7 @@ function ejercicio5(){
         console.log("El total de las multiplicaciones es: " + total);
     }
     numero.value = ``
+    
 }
 
 
