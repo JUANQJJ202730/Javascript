@@ -212,15 +212,16 @@ function ejercicio5(){
     let total = 0
     
     console.log("Tabla de multiplicar de " + numero.value + ":");
+    lugar5.innerHTML = ""
     for (let i = 1; i <= 10; i++) {
         const multiplicacion = numero.value * i;
         total += multiplicacion;
         console.log(numero.value + " x " + i + " = " + multiplicacion);
         lugar5.innerHTML += `
-        <li for="text-center" style=" color:#d42828 ; font-family: Juan;" id="resul"> ${numero.value} x ${i} = ${multiplicacion}</li>`
+        <li for="text-center" style=" color:#d42828 ; font-size: 20px; font-family: Juan;" id="resul"> ${numero.value} x ${i} = ${multiplicacion}</li>`
     }
     lugarRe.innerHTML = `
-    <label for="text-center" style=" color:#d42828 ; font-family: Juan;" id="resul">El total de las multiplicaciones es: ${total}</label>`
+    <label for="text-center" style=" color:#d42828 ; font-size: 20px; font-family: Juan;" id="resul">El total de las multiplicaciones es: ${total}</label>`
         console.log("El total de las multiplicaciones es: " + total);
     }
     numero.value = ``
