@@ -169,7 +169,7 @@ const menu =
     {"H": 30000,
     "Pi": 28000,
     "PaF": 15000,
-    "Refresco": 8000}
+    "R": 8000}
 
     let lugar = document.querySelector(`#lugarEjercicio4`)
 
