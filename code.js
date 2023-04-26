@@ -183,6 +183,7 @@ function ejercicio4(){
             console.log("Ha agregado " + opcion.value + " a su orden. Total: $" + total)
             lugar.innerHTML = `<label for="text-center" style="font-size: 50px; color:#d42828 ; font-family: Juan;" id="resul">Ha agregado ${opcion.value} a su orden. Total: $ ${total}</label>
     `
+            opcion.value = ``
         }
         else if (opcion.value !== "Pagar") {
             console.log("Lo siento, la opción seleccionada no es válida.")
