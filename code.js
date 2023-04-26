@@ -216,8 +216,7 @@ function ejercicio5(){
         const multiplicacion = numero.value * i;
         total += multiplicacion;
         console.log(numero.value + " x " + i + " = " + multiplicacion);
-        lugar5.innerHTML = `
-        <li for="text-center" style=" color:#d42828 ; font-family: Juan;" id="resul"> ${numero.value} x ${i} = ${multiplicacion}</li>
+        lugar5.innerHTML += `
         <li for="text-center" style=" color:#d42828 ; font-family: Juan;" id="resul"> ${numero.value} x ${i} = ${multiplicacion}</li>`
     }
     lugarRe.innerHTML = `
